@@ -1,0 +1,56 @@
+@charset 'UTF-8';
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    & h1 {
+        font-size: 50px;
+    }
+    
+    & .product {
+        display: flex;
+        flex-direction: column;
+        border: solid black;
+        border-radius: 5%;
+        height: 250px;
+        width: 200px;
+        gap: 20px;
+        margin-top: 60px;
+
+        & .cancel {
+            margin-top: 0   ;
+            width: 80px;
+        }
+
+        & form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        & h2 {
+            margin: 10px 0 0 0;
+            color: rgb(120, 173, 120);
+            font-size: 18px;
+        }
+
+        & p {
+            margin: 0;
+        }
+
+        & input {
+            margin-left: 10px;
+            width: 80px;
+        }
+
+        & button {
+            margin: 20px 5px 0px 5px;
+            width: 80px;
+        }
+    }
+    
+
+}

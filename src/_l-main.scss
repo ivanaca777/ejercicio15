@@ -1,0 +1,96 @@
+@charset 'UTF-8';
+
+body {
+    background-color: rgb(207, 207, 207);
+}
+
+main {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 30px;
+}
+.nota-favorita {
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: rgb(175, 102, 38);
+    margin: 20px 0 20px 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        text-align: center;
+        padding: 0 15px 0 15px;
+    }
+
+    & .botones {
+        display: flex;
+        justify-content: center;
+        align-self: flex-end;
+        margin: 20px 0 20px 0;
+        gap: 20px;
+    }
+}
+  
+.nota {
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        text-align: center;
+        padding: 0 15px 0 15px;
+    }
+
+    & .botones {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 20px 0;
+        gap: 20px;
+    }
+}
+  
+.editar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & input {
+        width: 50%;
+        margin: 10px;
+    }
+
+    & textarea {
+        width: 80%;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    & div {
+
+       display: flex;
+       justify-content: center;
+       margin: 20px 0 20px 0;
+       gap: 20px;
+        
+    }
+}
